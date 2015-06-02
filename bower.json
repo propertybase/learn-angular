@@ -1,0 +1,22 @@
+{
+  "name": "learn-angular",
+  "version": "1.0.0",
+  "homepage": "https://github.com/propertybase/learn-angular",
+  "authors": [
+    "Konstantin Krauss <konstantin@propertybase.com>"
+  ],
+  "description": "Angular.JS based single-page app for the Propertybase Force.com product",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.0",
+    "bootstrap-sass": "~3.3.4",
+    "lodash": "~3.9.3"
+  }
+}

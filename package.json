@@ -5,11 +5,14 @@
   "contributors": [
     "Konstantin Krauss <konstantin@propertybase.com> (https://www.propertybase.com)"
   ],
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git://github.com/propertybase/learn-angular.git"
   },
   "devDependencies": {
-
+    "coffee-script": "^1.9.3",
+    "gulp": "^3.9.0",
+    "gulp-coffee": "^2.3.1"
   }
 }
