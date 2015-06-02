@@ -1,0 +1,15 @@
+{
+  "name": "learn-angular",
+  "version": "1.0.0",
+  "description": "A Propertybase internal Angular workshop",
+  "contributors": [
+    "Konstantin Krauss <konstantin@propertybase.com> (https://www.propertybase.com)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/propertybase/learn-angular.git"
+  },
+  "devDependencies": {
+
+  }
+}
