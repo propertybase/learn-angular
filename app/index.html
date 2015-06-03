@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="myApp">
   <head>
     <meta charset="utf-8"></meta>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +11,16 @@
   </head>
   <body>
     <h1>Propertybase: Learn Angular</h1>
+
+    <div class="main-module" ng-controller="testController">
+      <p>
+        Text<br>
+        {{myVar}}</p>
+      <p>
+      <input type="text" ng-model="myVar">
+      <button ng-click="changeText()">Click Me!</button>
+      </p>
+    </div>
 
     <script src="../bower_components/angular/angular.js"></script>
     <script src="../.tmp/js/app.js"></script>
